@@ -19,7 +19,11 @@ docker run --rm \
     laravelsail/php80-composer:latest \
     composer install --ignore-platform-reqs
 ```
-run application with :
+Create a environment file using this command-
+```sh
+cp .env.example .env
+```
+Then run application with :
 ```sh
 ./vendor/bin/sail up -d
 ```
@@ -27,10 +31,7 @@ Then do a composer install
 ```sh
 ./vendor/bin/sail composer install
 ```
-Then create a environment file using this command-
-```sh
-cp .env.example .env
-```
+
 Then do a database migration using this command-
 ```sh
 ./vendor/bin/sail artisan migrate
@@ -45,6 +46,7 @@ Run
  ./vendor/bin/sail npm run dev 
  ``` 
  to install all front end dependencies
+ 
 Run ``` npm run watch ``` to build vue 
 # Screenshots
 <p align="center"><img src="https://github.com/YoussefHarizi/blog-app/blob/main/public/images/img1.png" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>

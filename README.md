@@ -48,8 +48,8 @@ Run
 Run ``` npm run watch ``` to build vue 
 # Screenshots
 <p align="center"><img src="https://github.com/YoussefHarizi/blog-app/blob/main/public/images/img1.png" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
-<p align="center"><img src="https://github.com/YoussefHarizi/blog-app/blob/main/public/images/img2.png" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
-<p align="center"><img src="https://github.com/YoussefHarizi/blog-app/blob/main/public/images/img3.png" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+<p align="center"><img src="https://github.com/YoussefHarizi/blog-app/blob/main/public/images/img4.png" style="width:400;box-shadow: 2px 2px 5px black;margin-bottom:2px;"></p>
+
 
 
 

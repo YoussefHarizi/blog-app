@@ -23,6 +23,15 @@ Create a environment file using this command-
 ```sh
 cp .env.example .env
 ```
+change this lines in .env file :
+```sh
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=blog-app
+DB_USERNAME=sail
+DB_PASSWORD=password
+```
 Then run application with :
 ```sh
 ./vendor/bin/sail up -d
